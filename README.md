@@ -86,5 +86,9 @@ ip-10-0-1-83.ap-south-1.compute.internal    Ready    <none>   16m   v1.27.9-eks-
 ip-10-0-3-131.ap-south-1.compute.internal   Ready    <none>   17m   v1.27.9-eks-5e0fdde   10.0.3.131    <none>        Amazon Linux 2   5.10.209-198.858.amzn2.x86_64   containerd://1.7.11
 ip-10-0-3-169.ap-south-1.compute.internal   Ready    <none>   17m   v1.27.9-eks-5e0fdde   10.0.3.169    <none>        Amazon Linux 2   5.10.209-198.858.amzn2.x86_64   containerd://1.7.11
 ```
-
+## Clean up
+```
+~/Documents/GitHub/eks-terraform$ terraform destroy
+# when asked for configmation to perform action, confirm by entering "yes"
+```
 
