@@ -57,7 +57,7 @@ Kustomize Version: v5.0.4-0.20230601165947-6ce0bf390ce3
 ~/Documents/GitHub/eks-terraform$ terraform init
 
 ~/Documents/GitHub/eks-terraform$ terraform apply
-# when asked for configmation to perform action, confirm by entering "yes"
+# when asked for confirmation to perform action, confirm by entering "yes"
 ```
 
 ## Access the cluster
@@ -89,6 +89,6 @@ ip-10-0-3-169.ap-south-1.compute.internal   Ready    <none>   17m   v1.27.9-eks-
 ## Clean up
 ```
 ~/Documents/GitHub/eks-terraform$ terraform destroy
-# when asked for configmation to perform action, confirm by entering "yes"
+# when asked for confirmation to perform action, confirm by entering "yes"
 ```
 
